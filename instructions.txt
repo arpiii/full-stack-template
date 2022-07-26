@@ -21,7 +21,7 @@
 //10. Create heroku repo
 
 // heroku login
-// heroku create simple-rap-api
+// heroku create <name> or leave blank to get assigned a random name
 // echo "web: node server.js" > Procfile
 // git add .
 // git commit -m "changes"
