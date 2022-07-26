@@ -16,3 +16,7 @@ MongoClient.connect(dbConnectionString)
         db = client.db(dbName)
         collection = db.collection('alien-info')
     })
+
+app.listen(process.env.PORT || PORT, () =>{
+    console.log(`Server is running on port = ${process.env.PORT}`)
+})

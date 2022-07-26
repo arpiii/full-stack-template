@@ -4,11 +4,11 @@
 
 //3. Declare variables
 
-//4. Connect to Mongodb - add connection string to .env file
+//4. Connect to Mongodb - add connection string to .env file and add .env file to gitignore
 
 //5. Create Port
 
-//---- Test Mongo and Port connection
+//---- Test Mongo and Port connection (nodemon is "dev": "nodemon server.js" under scripts in package.json)
 
 //6. Set middleware
 
