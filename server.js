@@ -24,6 +24,10 @@ app.use(express.urlencoded({extended: true})) // Returns middleware that only pa
 app.use(express.json()) // helps express parse json, pull it apart and extract data out of it. Allows us to read data passed back and forth
 app.use(cors()) // allows cross-origin requests and stops cors errors in browser
 
+
+//The CRUD stuff goes here
+
+
 app.listen(process.env.PORT || PORT, () =>{
     console.log(`Server is running on port = ${process.env.PORT}`)
 })
